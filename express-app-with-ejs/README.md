@@ -2,7 +2,7 @@
 
 This template provides a solid foundation for building web applications using Express.js with the EJS (Embedded JavaScript) template engine. It streamlines the process of setting up your web projects, allowing you to focus on building features rather than configuring the framework.
 
-> [!WARN]
+> [!WARNING]
 > This template creation is not completed. There is still a lot of work remaining!
 
 📍 **Feel free to contribute to this project to take it to the next level!**

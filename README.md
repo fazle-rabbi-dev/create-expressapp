@@ -4,7 +4,7 @@ Automate the setup of Express.js Api projects with a pre-designed boilerplate st
 
 <img width="100%" src="banner.jpg" alt="Banner" />
 
-📍 **Feel free to contribute to this project to take it to the next level!**
+📍 **Feel free to contribute & add your own template to this project to take it to the next level!**
 
 ## About
 `generate-expressjs-app` is a command-line interface (CLI) tool built with Node.js for generating API boilerplate code. It helps developers quickly set up a robust API project with industry followed best practices, authentication, security configurations, file uploading setup with multer & cloudinary, mongoose setup and other common processes.
