@@ -1,0 +1,28 @@
+{
+  "name": "create-expressapp",
+  "version": "1.0.0",
+  "description": "Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using `create-expressapp`. This tool saves your time and provides a clean starting point for your express.js applications.",
+  "main": "main.js",
+  "bin": {
+    "create-expressapp": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "create-expressapp",
+    "expressapp",
+    "expressjs",
+    "expressjs boilerplate",
+    "nodejs api",
+    "expressjs api",
+    "express api boilerplate"
+  ],
+  "author": "Fazle Rabbi",
+  "license": "MIT",
+  "homepage": "https://github.com/fazle-rabbi-dev/create-expressapp",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "fs-extra": "^11.2.0"
+  }
+}
