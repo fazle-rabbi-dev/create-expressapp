@@ -1,7 +1,6 @@
 # create-expressapp
 
-> [!INFO]
-> Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using `create-expressapp`. This tool saves your time and provides a clean starting point for your express.js applications.
+Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using `create-expressapp`. This tool saves your time and provides a clean starting point for your express.js applications.
 
 <img width="100%" src="expressapp-banner.jpg" alt="Banner" />
 
