@@ -109,10 +109,11 @@ async function main() {
         console.log(
             chalk.green.bold("\n✔ Boilerplate generated successfully!"),
             "\n✔ Now type the following command:",
-            chalk.italic.dim(`\n\n  cd ${projectName}`),
-            chalk.italic.dim(`\n  bash install.sh`),
-            chalk.italic.dim(`\n  npm run dev\n`)
+            chalk.italic.dim(`\n\n  $ cd ${projectName}`),
+            chalk.italic.dim(`\n  $ bash install.sh`),
+            chalk.italic.dim(`\n  $ npm run dev`)
         );
+        if(templateChoice === "1") console.log(chalk.italic.red(`\n  [*] Make sure to set up your .env file.\n`));
     } catch (err) {
         console.log(chalk.red.bold("✘ Error:", err.message));
         process.exit(1);
