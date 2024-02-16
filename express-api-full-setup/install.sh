@@ -10,4 +10,5 @@ echo -e "\033[1;92m[*] Installation completed."
 echo -e "\033[1;91m[*] Make sure to set up your .env file."
 echo -e "\033[1;93m[*] Then type: npm run dev"
 
+mv .npmignore .gitignore
 rm install.sh

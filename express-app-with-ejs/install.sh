@@ -9,4 +9,5 @@ sleep .5
 echo -e "\033[1;92m[*] Installation completed."
 echo -e "\033[1;93m[*] Now type: npm run dev"
 
+mv .npmignore .gitignore
 rm install.sh

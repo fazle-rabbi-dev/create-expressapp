@@ -1,11 +1,22 @@
 {
   "name": "generate-expressjs-app",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using `create-expressapp`. This tool saves your time and provides a clean starting point for your express.js applications.",
   "main": "main.js",
   "bin": {
     "generate-expressjs-app": "main.js"
   },
+  "files": [
+      "README.md",
+      "main.js",
+      "package.json",
+      "package-lock.json",
+      ".gitignore",
+      "express-app-with-ejs",
+      "express-app-with-ejs/.gitignore",
+      "express-api-full-setup",
+      "express-api-full-setup/.gitignore"
+    ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
