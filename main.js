@@ -76,8 +76,9 @@ async function main() {
         displayText(
             `\n${chalk.cyan("?")} Which template would you like to use:`
         );
-        displayText(chalk.magenta(" 1. express-api-full-setup"));
+        displayText(chalk.magenta(" 1. express-api-full-setup (deprecated)"));
         displayText(chalk.yellow(" 2. express-app-with-ejs"));
+        displayText(chalk.magenta(" 3. standard-template (recommended)"));
 
         const templateChoice = await askQuestion(chalk.gray.bold(" > "));
 
@@ -88,6 +89,8 @@ async function main() {
             templatePath = path.join(__dirname, "express-api-full-setup");
         } else if (templateChoice === "2") {
             templatePath = path.join(__dirname, "express-app-with-ejs");
+        } else if (templateChoice === "3") {
+            templatePath = path.join(__dirname, "standard-template");
         } else {
             console.log(chalk.red.bold("✘ Invalid template choice."));
             process.exit(1);

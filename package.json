@@ -1,6 +1,6 @@
 {
   "name": "generate-expressjs-app",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using `create-expressapp`. This tool saves your time and provides a clean starting point for your express.js applications.",
   "main": "main.js",
   "bin": {

@@ -1,0 +1,17 @@
+{
+    "name": "Api Template",
+    "version": "1.0.0",
+    "description": "",
+    "private": "true",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon",
+        "create-admin": "node src/createAdminUser.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {}
+}
