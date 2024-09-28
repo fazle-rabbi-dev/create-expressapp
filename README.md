@@ -1,5 +1,7 @@
 # generate-expressjs-app
 
+- **⚠️ This project has been deprecated**
+
 Automate the setup of Express.js Api projects with a pre-designed boilerplate structure using `generate-expressjs-app`. This tool saves your time and provides a clean starting point for your express.js applications.
 
 <img width="100%" src="banner.jpg" alt="Banner" />
